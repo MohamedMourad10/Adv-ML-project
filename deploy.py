@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model('/path/to/your/saved/model.h5')  # Update the path
+model = load_model('brain_tumor_model.h5')  # Update the path
 print("Model loaded successfully.")
 
 # Path to the test image
